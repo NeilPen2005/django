@@ -27,7 +27,7 @@ DATETIME_INPUT_FORMATS = [
 
 # these are the separators for non-monetary numbers. For monetary numbers,
 # the DECIMAL_SEPARATOR is a . (decimal point) and the THOUSAND_SEPARATOR is a
-# ' (single quote).
+# , (comma).
 # For details, please refer to the documentation and the following link:
 # https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/hilfsmittel-textredaktion/schreibweisungen.html
 DECIMAL_SEPARATOR = ","
