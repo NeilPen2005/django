@@ -25,9 +25,9 @@ DATETIME_INPUT_FORMATS = [
     "%d.%m.%Y %H:%M",  # '25.10.2006 14:30'
 ]
 
-# these are the separators for non-monetary numbers. For monetary numbers,
-# the DECIMAL_SEPARATOR is a . (decimal point) and the THOUSAND_SEPARATOR is a
-# , (comma).
+# These are the separators for non-monetary numbers.
+# The decimal separator for monetary numbers is a . (decimal point), but Django
+# will always use DECIMAL_SEPARATOR for any number.
 # For details, please refer to the documentation and the following link:
 # https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/hilfsmittel-textredaktion/schreibweisungen.html
 DECIMAL_SEPARATOR = ","
